@@ -1,0 +1,291 @@
+2018-08-07 17:22:52,853 - DEBUG - 数据库连接成功
+2018-08-07 17:22:55,718 - DEBUG - 得到批次号：,frompagenum=1,topagenum
+2018-08-07 17:22:56,412 - DEBUG - 准备请求第一页，获取总条数
+2018-08-07 17:22:56,442 - DEBUG - Starting new HTTP connection (1): www.chinacar.com.cn
+2018-08-07 17:22:57,228 - DEBUG - http://www.chinacar.com.cn:80 "POST /Home/GonggaoSearch/GonggaoSearch/search_json HTTP/1.1" 200 None
+2018-08-07 17:22:57,273 - DEBUG - 得到总页数9
+2018-08-07 17:22:57,273 - DEBUG - 抓取第1页
+2018-08-07 17:22:57,273 - DEBUG -  开始发送数据请求,获取本页所有carid
+2018-08-07 17:22:57,280 - DEBUG - Starting new HTTP connection (1): www.chinacar.com.cn
+2018-08-07 17:22:58,330 - DEBUG - http://www.chinacar.com.cn:80 "POST /Home/GonggaoSearch/GonggaoSearch/search_json HTTP/1.1" 200 None
+2018-08-07 17:22:58,384 - DEBUG -  得到本页所有carid
+2018-08-07 17:22:58,384 - DEBUG -      开始抓取第1页，第1条数据，carid=Njg3ODI2
+2018-08-07 17:22:58,388 - DEBUG -      数据库已存在此数据Njg3ODI2，略过
+2018-08-07 17:22:58,389 - DEBUG -      开始抓取第1页，第2条数据，carid=Njg3ODMy
+2018-08-07 17:22:58,390 - DEBUG -      数据库不存在此数据Njg3ODMy，执行插入
+2018-08-07 17:23:01,456 - DEBUG - POST http://127.0.0.1:4382/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-08-07 17:23:03,188 - DEBUG - Finished Request
+2018-08-07 17:23:03,188 - DEBUG -      启动chromedriver
+2018-08-07 17:23:07,307 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/url {"url": "http://www.chinacar.com.cn/ggcx_new/search_view.html?id=Njg3ODMy", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:11,189 - DEBUG - Finished Request
+2018-08-07 17:23:15,910 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/url {"url": "http://www.chinacar.com.cn/ggcx_new/search_view.html?id=NjI5NjMy", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:17,902 - DEBUG - Finished Request
+2018-08-07 17:23:28,041 - DEBUG -      打开详情页面
+2018-08-07 17:23:28,427 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[2]/td[2]/a", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:28,472 - DEBUG - Finished Request
+2018-08-07 17:23:28,474 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-1/text {"id": "0.133393212907575-1", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:28,498 - DEBUG - Finished Request
+2018-08-07 17:23:29,420 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[2]/td[4]/span[1]/a", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:29,446 - DEBUG - Finished Request
+2018-08-07 17:23:29,447 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-2/text {"id": "0.133393212907575-2", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:29,469 - DEBUG - Finished Request
+2018-08-07 17:23:30,364 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[3]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:30,400 - DEBUG - Finished Request
+2018-08-07 17:23:30,401 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-3/text {"id": "0.133393212907575-3", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:30,426 - DEBUG - Finished Request
+2018-08-07 17:23:30,623 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[3]/td[4]/span/a", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:30,652 - DEBUG - Finished Request
+2018-08-07 17:23:30,653 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-4/text {"id": "0.133393212907575-4", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:30,673 - DEBUG - Finished Request
+2018-08-07 17:23:30,804 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[4]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:30,823 - DEBUG - Finished Request
+2018-08-07 17:23:30,824 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-5/text {"id": "0.133393212907575-5", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:30,844 - DEBUG - Finished Request
+2018-08-07 17:23:30,993 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[4]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,023 - DEBUG - Finished Request
+2018-08-07 17:23:31,024 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-6/text {"id": "0.133393212907575-6", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,046 - DEBUG - Finished Request
+2018-08-07 17:23:31,173 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[5]/td[2]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,190 - DEBUG - Finished Request
+2018-08-07 17:23:31,191 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-7/text {"id": "0.133393212907575-7", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,212 - DEBUG - Finished Request
+2018-08-07 17:23:31,355 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[5]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,398 - DEBUG - Finished Request
+2018-08-07 17:23:31,400 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-8/text {"id": "0.133393212907575-8", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,429 - DEBUG - Finished Request
+2018-08-07 17:23:31,535 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[6]/td[2]/a", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,552 - DEBUG - Finished Request
+2018-08-07 17:23:31,553 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-9/text {"id": "0.133393212907575-9", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,579 - DEBUG - Finished Request
+2018-08-07 17:23:31,729 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[6]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,758 - DEBUG - Finished Request
+2018-08-07 17:23:31,759 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-10/text {"id": "0.133393212907575-10", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:31,781 - DEBUG - Finished Request
+2018-08-07 17:23:32,302 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[7]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:32,325 - DEBUG - Finished Request
+2018-08-07 17:23:32,326 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-11/text {"id": "0.133393212907575-11", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:32,348 - DEBUG - Finished Request
+2018-08-07 17:23:32,831 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[7]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:32,849 - DEBUG - Finished Request
+2018-08-07 17:23:32,850 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-12/text {"id": "0.133393212907575-12", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:32,869 - DEBUG - Finished Request
+2018-08-07 17:23:33,030 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[8]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:33,065 - DEBUG - Finished Request
+2018-08-07 17:23:33,066 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-13/text {"id": "0.133393212907575-13", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:33,086 - DEBUG - Finished Request
+2018-08-07 17:23:33,212 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[8]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:33,229 - DEBUG - Finished Request
+2018-08-07 17:23:33,230 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-14/text {"id": "0.133393212907575-14", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:33,251 - DEBUG - Finished Request
+2018-08-07 17:23:33,400 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[9]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:33,449 - DEBUG - Finished Request
+2018-08-07 17:23:33,450 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-15/text {"id": "0.133393212907575-15", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:33,480 - DEBUG - Finished Request
+2018-08-07 17:23:33,592 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[9]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:33,620 - DEBUG - Finished Request
+2018-08-07 17:23:33,621 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-16/text {"id": "0.133393212907575-16", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:33,647 - DEBUG - Finished Request
+2018-08-07 17:23:34,075 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[11]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:34,113 - DEBUG - Finished Request
+2018-08-07 17:23:34,114 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-17/text {"id": "0.133393212907575-17", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:34,139 - DEBUG - Finished Request
+2018-08-07 17:23:34,275 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[11]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:34,320 - DEBUG - Finished Request
+2018-08-07 17:23:34,321 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-18/text {"id": "0.133393212907575-18", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:34,346 - DEBUG - Finished Request
+2018-08-07 17:23:35,018 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[13]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,058 - DEBUG - Finished Request
+2018-08-07 17:23:35,059 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-19/text {"id": "0.133393212907575-19", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,086 - DEBUG - Finished Request
+2018-08-07 17:23:35,212 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[13]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,252 - DEBUG - Finished Request
+2018-08-07 17:23:35,254 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-20/text {"id": "0.133393212907575-20", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,281 - DEBUG - Finished Request
+2018-08-07 17:23:35,424 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[14]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,450 - DEBUG - Finished Request
+2018-08-07 17:23:35,452 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-21/text {"id": "0.133393212907575-21", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,472 - DEBUG - Finished Request
+2018-08-07 17:23:35,601 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[14]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,646 - DEBUG - Finished Request
+2018-08-07 17:23:35,649 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-22/text {"id": "0.133393212907575-22", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,684 - DEBUG - Finished Request
+2018-08-07 17:23:35,787 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[16]/td[2]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,807 - DEBUG - Finished Request
+2018-08-07 17:23:35,808 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-23/text {"id": "0.133393212907575-23", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:35,827 - DEBUG - Finished Request
+2018-08-07 17:23:36,358 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[16]/td[4]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:36,393 - DEBUG - Finished Request
+2018-08-07 17:23:36,394 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-24/text {"id": "0.133393212907575-24", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:36,418 - DEBUG - Finished Request
+2018-08-07 17:23:36,546 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[17]/td[2]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:36,568 - DEBUG - Finished Request
+2018-08-07 17:23:36,569 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-25/text {"id": "0.133393212907575-25", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:36,588 - DEBUG - Finished Request
+2018-08-07 17:23:36,738 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[17]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:36,769 - DEBUG - Finished Request
+2018-08-07 17:23:36,770 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-26/text {"id": "0.133393212907575-26", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:36,793 - DEBUG - Finished Request
+2018-08-07 17:23:37,496 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[18]/td[2]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:37,531 - DEBUG - Finished Request
+2018-08-07 17:23:37,532 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-27/text {"id": "0.133393212907575-27", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:37,565 - DEBUG - Finished Request
+2018-08-07 17:23:39,545 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[18]/td[4]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:39,580 - DEBUG - Finished Request
+2018-08-07 17:23:39,581 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-28/text {"id": "0.133393212907575-28", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:39,606 - DEBUG - Finished Request
+2018-08-07 17:23:39,734 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[19]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:39,770 - DEBUG - Finished Request
+2018-08-07 17:23:39,804 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-29/text {"id": "0.133393212907575-29", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:39,824 - DEBUG - Finished Request
+2018-08-07 17:23:40,458 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[19]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:40,500 - DEBUG - Finished Request
+2018-08-07 17:23:40,501 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-30/text {"id": "0.133393212907575-30", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:40,520 - DEBUG - Finished Request
+2018-08-07 17:23:40,656 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[20]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:40,699 - DEBUG - Finished Request
+2018-08-07 17:23:40,702 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-31/text {"id": "0.133393212907575-31", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:40,740 - DEBUG - Finished Request
+2018-08-07 17:23:40,843 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[20]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:40,860 - DEBUG - Finished Request
+2018-08-07 17:23:40,861 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-32/text {"id": "0.133393212907575-32", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:40,881 - DEBUG - Finished Request
+2018-08-07 17:23:41,037 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[21]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,055 - DEBUG - Finished Request
+2018-08-07 17:23:41,056 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-33/text {"id": "0.133393212907575-33", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,076 - DEBUG - Finished Request
+2018-08-07 17:23:41,229 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[21]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,262 - DEBUG - Finished Request
+2018-08-07 17:23:41,263 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-34/text {"id": "0.133393212907575-34", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,291 - DEBUG - Finished Request
+2018-08-07 17:23:41,426 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[22]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,463 - DEBUG - Finished Request
+2018-08-07 17:23:41,465 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-35/text {"id": "0.133393212907575-35", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,489 - DEBUG - Finished Request
+2018-08-07 17:23:41,611 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[22]/td[4]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,649 - DEBUG - Finished Request
+2018-08-07 17:23:41,651 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-36/text {"id": "0.133393212907575-36", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,684 - DEBUG - Finished Request
+2018-08-07 17:23:41,807 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[23]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,834 - DEBUG - Finished Request
+2018-08-07 17:23:41,835 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-37/text {"id": "0.133393212907575-37", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:41,858 - DEBUG - Finished Request
+2018-08-07 17:23:42,402 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[23]/td[4]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:42,435 - DEBUG - Finished Request
+2018-08-07 17:23:42,436 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-38/text {"id": "0.133393212907575-38", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:42,459 - DEBUG - Finished Request
+2018-08-07 17:23:42,587 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[24]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:42,614 - DEBUG - Finished Request
+2018-08-07 17:23:42,615 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-39/text {"id": "0.133393212907575-39", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:42,643 - DEBUG - Finished Request
+2018-08-07 17:23:42,801 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[24]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:42,838 - DEBUG - Finished Request
+2018-08-07 17:23:42,839 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-40/text {"id": "0.133393212907575-40", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:42,863 - DEBUG - Finished Request
+2018-08-07 17:23:43,398 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[25]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:43,436 - DEBUG - Finished Request
+2018-08-07 17:23:43,437 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-41/text {"id": "0.133393212907575-41", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:43,461 - DEBUG - Finished Request
+2018-08-07 17:23:43,602 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[25]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:43,646 - DEBUG - Finished Request
+2018-08-07 17:23:43,648 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-42/text {"id": "0.133393212907575-42", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:43,689 - DEBUG - Finished Request
+2018-08-07 17:23:43,784 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[26]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:43,801 - DEBUG - Finished Request
+2018-08-07 17:23:43,802 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-43/text {"id": "0.133393212907575-43", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:43,822 - DEBUG - Finished Request
+2018-08-07 17:23:44,390 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[26]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:44,408 - DEBUG - Finished Request
+2018-08-07 17:23:44,408 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-44/text {"id": "0.133393212907575-44", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:44,428 - DEBUG - Finished Request
+2018-08-07 17:23:44,601 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[27]/td[2]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:44,639 - DEBUG - Finished Request
+2018-08-07 17:23:44,640 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-45/text {"id": "0.133393212907575-45", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:44,665 - DEBUG - Finished Request
+2018-08-07 17:23:44,800 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[27]/td[4]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:44,852 - DEBUG - Finished Request
+2018-08-07 17:23:44,853 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-46/text {"id": "0.133393212907575-46", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:44,878 - DEBUG - Finished Request
+2018-08-07 17:23:45,408 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[28]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:45,449 - DEBUG - Finished Request
+2018-08-07 17:23:45,450 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-47/text {"id": "0.133393212907575-47", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:45,469 - DEBUG - Finished Request
+2018-08-07 17:23:45,610 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[28]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:45,643 - DEBUG - Finished Request
+2018-08-07 17:23:45,644 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-48/text {"id": "0.133393212907575-48", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:45,663 - DEBUG - Finished Request
+2018-08-07 17:23:45,805 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[29]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:45,846 - DEBUG - Finished Request
+2018-08-07 17:23:45,847 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-49/text {"id": "0.133393212907575-49", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:45,872 - DEBUG - Finished Request
+2018-08-07 17:23:46,387 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[29]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:46,408 - DEBUG - Finished Request
+2018-08-07 17:23:46,409 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-50/text {"id": "0.133393212907575-50", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:46,427 - DEBUG - Finished Request
+2018-08-07 17:23:46,605 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[30]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:46,632 - DEBUG - Finished Request
+2018-08-07 17:23:46,633 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-51/text {"id": "0.133393212907575-51", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:46,666 - DEBUG - Finished Request
+2018-08-07 17:23:46,777 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[30]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:46,794 - DEBUG - Finished Request
+2018-08-07 17:23:46,795 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-52/text {"id": "0.133393212907575-52", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:46,821 - DEBUG - Finished Request
+2018-08-07 17:23:47,335 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[31]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:47,355 - DEBUG - Finished Request
+2018-08-07 17:23:47,355 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-53/text {"id": "0.133393212907575-53", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:47,378 - DEBUG - Finished Request
+2018-08-07 17:23:47,530 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[31]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:47,553 - DEBUG - Finished Request
+2018-08-07 17:23:47,554 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-54/text {"id": "0.133393212907575-54", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:47,576 - DEBUG - Finished Request
+2018-08-07 17:23:47,760 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[32]/td[2]/span[1]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:47,787 - DEBUG - Finished Request
+2018-08-07 17:23:47,788 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-55/text {"id": "0.133393212907575-55", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:47,809 - DEBUG - Finished Request
+2018-08-07 17:23:48,836 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[35]/td[1]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:48,854 - DEBUG - Finished Request
+2018-08-07 17:23:48,855 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-56/text {"id": "0.133393212907575-56", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:48,875 - DEBUG - Finished Request
+2018-08-07 17:23:49,722 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[35]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:49,767 - DEBUG - Finished Request
+2018-08-07 17:23:49,768 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-57/text {"id": "0.133393212907575-57", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:49,793 - DEBUG - Finished Request
+2018-08-07 17:23:50,232 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[35]/td[3]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:50,262 - DEBUG - Finished Request
+2018-08-07 17:23:50,263 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-58/text {"id": "0.133393212907575-58", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:50,286 - DEBUG - Finished Request
+2018-08-07 17:23:51,118 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[35]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:51,149 - DEBUG - Finished Request
+2018-08-07 17:23:51,150 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-59/text {"id": "0.133393212907575-59", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:51,170 - DEBUG - Finished Request
+2018-08-07 17:23:51,969 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[36]/td/b", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:51,993 - DEBUG - Finished Request
+2018-08-07 17:23:51,994 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-60/text {"id": "0.133393212907575-60", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:52,021 - DEBUG - Finished Request
+2018-08-07 17:23:56,026 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[40]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:56,069 - DEBUG - Finished Request
+2018-08-07 17:23:56,070 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-61/text {"id": "0.133393212907575-61", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:56,099 - DEBUG - Finished Request
+2018-08-07 17:23:56,231 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[40]/td[4]/span", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:56,277 - DEBUG - Finished Request
+2018-08-07 17:23:56,279 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-62/text {"id": "0.133393212907575-62", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:56,305 - DEBUG - Finished Request
+2018-08-07 17:23:56,640 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[41]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:56,675 - DEBUG - Finished Request
+2018-08-07 17:23:56,676 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-63/text {"id": "0.133393212907575-63", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:56,700 - DEBUG - Finished Request
+2018-08-07 17:23:57,034 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[43]/td", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:57,066 - DEBUG - Finished Request
+2018-08-07 17:23:57,067 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-64/text {"id": "0.133393212907575-64", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:57,087 - DEBUG - Finished Request
+2018-08-07 17:23:57,449 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[45]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:57,485 - DEBUG - Finished Request
+2018-08-07 17:23:57,486 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-65/text {"id": "0.133393212907575-65", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:57,510 - DEBUG - Finished Request
+2018-08-07 17:23:57,860 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[45]/td[4]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:57,880 - DEBUG - Finished Request
+2018-08-07 17:23:57,881 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-66/text {"id": "0.133393212907575-66", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:57,900 - DEBUG - Finished Request
+2018-08-07 17:23:59,103 - DEBUG - POST http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element {"using": "xpath", "value": "//*[@id=\"con_two_p1\"]/table/tbody/tr[46]/td[2]", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:59,138 - DEBUG - Finished Request
+2018-08-07 17:23:59,139 - DEBUG - GET http://127.0.0.1:4382/session/52315334bc00c0e3be8b3efa5cb12426/element/0.133393212907575-67/text {"id": "0.133393212907575-67", "sessionId": "52315334bc00c0e3be8b3efa5cb12426"}
+2018-08-07 17:23:59,166 - DEBUG - Finished Request

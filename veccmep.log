@@ -1,0 +1,5 @@
+2018-07-17 14:43:18,465 - DEBUG - 建立数据库连接
+2018-07-17 14:43:18,467 - DEBUG - frompagenum=1页数【20】每页行数【10】查询参数【EV】
+2018-07-17 14:43:18,467 - DEBUG - 执行第1页数据抓取
+2018-07-17 14:43:18,478 - DEBUG - Starting new HTTP connection (1): ids.vecc-mep.org.cn
+2018-07-17 14:43:28,054 - DEBUG - http://ids.vecc-mep.org.cn:80 "GET /Ids/op/index.jsp?param=EV&page=1 HTTP/1.1" 200 None
