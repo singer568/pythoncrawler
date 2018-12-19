@@ -39,7 +39,8 @@ query_id = {
             'start': 0,
             'limit': 400
     }
-search_response = requests.post(search_url, data=query_id)
+headers = {'Cookie':'rel_search=1'}
+search_response = requests.post(search_url, data=query_id, headers=headers)
 a = search_response.text
 pattern = re.compile(r"totalCount\":\"\d{1,20}");
 result = pattern.findall(a)
@@ -68,7 +69,7 @@ for x in range(frompageno, pages):
     }
     search_url ='http://www.chinacar.com.cn/Home/GonggaoSearch/GonggaoSearch/search_json'
     logging.debug(' 开始发送数据请求,获取本页所有carid')
-    search_response = requests.post(search_url, data=query_id)
+    search_response = requests.post(search_url, data=query_id, headers=headers)
     a = search_response.text
     pattern = re.compile(r'\'tarid\':\'[a-zA-Z0-9]{8}\'');
     result = pattern.findall(a)
